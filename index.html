@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amigo Secreto - 2024</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Amigo Secreto</h1>
+    <div id="participantes">
+        <h2>Participantes</h2>
+        <textarea id="nombres" placeholder="Ingresa los nombres separados por comas (ej: Ana,Juan,Maria)"></textarea>
+        <button onclick="sortear()">Sortear</button>
+    </div>
+    <div id="resultados" style="display: none;">
+        <h2>Resultados</h2>
+        <div id="asignaciones"></div>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
